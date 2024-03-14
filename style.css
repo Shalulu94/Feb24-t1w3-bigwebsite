@@ -2,9 +2,44 @@
 
 
 :root {
-    --yinmn-blue: #355070ff;
-    --chinese-violet: #6d597aff;
-    --china-rose: #b56576ff;
-    --light-coral: #e56b6fff;
-    --buff: #eaac8bff;
+    --purple-heart-50: #f3f1ff;
+	--purple-heart-100: #ebe5ff;
+	--purple-heart-200: #d9ceff;
+	--purple-heart-300: #bea6ff;
+	--purple-heart-400: #9f75ff;
+	--purple-heart-500: #843dff;
+	--purple-heart-600: #7916ff;
+	--purple-heart-700: #6b04fd;
+	--purple-heart-800: #5a03d5;
+	--purple-heart-900: #4b05ad;
+	--purple-heart-950: #2c0076;
  }
+
+ * {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--purple-heart-100);
+}
+
+header {
+	background-color: var(--purple-heart-400);
+    height: 10dvh;
+}
+footer {
+	background-color: var(--purple-heart-400);
+    height: 5dvh;
+}
+
+main {
+    min-height: 85dvh;
+}
+
+/* 
+header, footer {
+	background-color: var(--purple-heart-400);
+} 
+*/
